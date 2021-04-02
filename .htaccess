@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_USER_AGENT} android|avantgo|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|o​d)|iris|kindle|lge |maemo|midp|mmp|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)/|plucker|pocket|psp|symbian|treo|up.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino [NC]
+RewriteRule ^$ https://tomato-timer.com// [R,L]
